@@ -20,7 +20,7 @@ class Student
       );
     SQL
     
-    DB[:conn].exec("")
+    DB[:conn].exec(sql)
   end
   
 end
