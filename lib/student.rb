@@ -42,7 +42,6 @@ class Student
   end
   
   def self.create(attributes)
-    pp attributes
     name = attributes[:name]
     grade = attributes[:grade]
     new_student = self.new(name,grade)
