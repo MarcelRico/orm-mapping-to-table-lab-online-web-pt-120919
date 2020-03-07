@@ -38,6 +38,7 @@ class Student
     
     DB[:conn].execute(sql,@name,@grade)
     
+    @id = DB[:conn].execute()
   end
   
 end
